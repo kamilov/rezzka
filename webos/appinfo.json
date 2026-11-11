@@ -1,0 +1,13 @@
+{
+  "id": "ru.kamilov.rezzka",
+  "vendor": "Rezzka",
+  "type": "web",
+  "main": "index.html",
+  "title": "Rezzka",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "appDescription": "Каталог, поиск и просмотр фильмов и сериалов с управлением пультом",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true,
+  "requiredACG": ["activity.operation"]
+}

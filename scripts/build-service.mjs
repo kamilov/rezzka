@@ -1,0 +1,10 @@
+import {build} from 'esbuild';
+import {mkdir, rm, copyFile, readFile, writeFile} from 'node:fs/promises';
+import {releaseVersion} from './release-files.mjs';
+const version = releaseVersion(JSON.parse(await readFile('package.json', 'utf8')).version);
+await rm('build/service', {recursive: true, force: true});
+await mkdir('build/service', {recursive: true});
+await build({entryPoints: ['service/webos.ts'], outfile: 'build/service/index.js', bundle: true, platform: 'node', target: 'node20', format: 'cjs', external: ['webos-service'], sourcemap: true});
+const metadata = JSON.parse(await readFile('service/package.json', 'utf8'));
+await writeFile('build/service/package.json', JSON.stringify({...metadata, version, type: 'commonjs'}, null, 2) + '\n');
+await copyFile('service/services.json', 'build/service/services.json');

@@ -1,0 +1,3 @@
+/* Years are short: show them in columns so the list is quick to walk. */
+.browse-filter-options-year { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.browse-grid { margin-top: 0; }

@@ -1,0 +1,5 @@
+{
+  "name": "ru.kamilov.rezzka.service",
+  "main": "index.js",
+  "type": "module"
+}

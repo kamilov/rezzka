@@ -1,0 +1,82 @@
+{
+  "purpose": "Film posters used as sample content in the Rezzka demo mode.",
+  "retrieved_at": "2026-11-01",
+  "note": "Blender source pages returned HTTP 403 during download. Unmodified copies and existing thumbnails were downloaded from Wikimedia Commons; original Blender sources and per-file license evidence are recorded below. No endorsement is implied.",
+  "posters": [
+    {
+      "file": "sintel.jpg",
+      "title": "Sintel",
+      "year": 2010,
+      "width": 905,
+      "height": 1280,
+      "author": "Blender Foundation",
+      "attribution": "© copyright Blender Foundation — durian.blender.org",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "official_source": "http://durian.blender.org/news/movie-poster/",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Sintel_poster.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg",
+      "changes": "None. Original file copied without edits."
+    },
+    {
+      "file": "spring.jpg",
+      "title": "Spring",
+      "year": 2019,
+      "width": 2267,
+      "height": 3200,
+      "author": "Blender Foundation",
+      "attribution": "Blender Foundation — Spring (Alpha poster)",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "official_source": "https://cloud.blender.org/p/spring/5ca716f64be11427d803ca28",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Spring2019AlphaPosterBlender.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Spring2019AlphaPosterBlender.jpg",
+      "changes": "None. Original file copied without edits."
+    },
+    {
+      "file": "sprite-fright.jpg",
+      "title": "Sprite Fright",
+      "year": 2021,
+      "width": 960,
+      "height": 1358,
+      "author": "Blender Studio",
+      "attribution": "Blender Studio — Sprite Fright (simple poster)",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "official_source": "https://studio.blender.org/films/sprite-fright/?asset=5448",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Sprite_Fright-movie_poster.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Sprite_Fright-movie_poster.jpg/960px-Sprite_Fright-movie_poster.jpg",
+      "changes": "Existing 960px Wikimedia thumbnail copied without local edits."
+    },
+    {
+      "file": "tears-of-steel.png",
+      "title": "Tears of Steel",
+      "year": 2012,
+      "width": 960,
+      "height": 1422,
+      "author": "Blender Foundation / Project Mango",
+      "attribution": "(CC) Blender Foundation — Project Mango",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "official_source": "http://mango.blender.org/production/press-release-premiere/",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Tos-poster.png",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tos-poster.png/960px-Tos-poster.png",
+      "changes": "Existing 960px Wikimedia thumbnail copied without local edits."
+    },
+    {
+      "file": "big-buck-bunny.jpg",
+      "title": "Big Buck Bunny",
+      "year": 2008,
+      "width": 1500,
+      "height": 2122,
+      "author": "Blender Foundation",
+      "attribution": "© copyright Blender Foundation — www.bigbuckbunny.org",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "official_source": "http://peach.blender.org/index.php/press/",
+      "license_evidence": "https://commons.wikimedia.org/wiki/File:Big_buck_bunny_poster_big.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg",
+      "changes": "None. Original file copied without edits."
+    }
+  ]
+}

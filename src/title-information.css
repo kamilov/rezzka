@@ -1,0 +1,6 @@
+/* A focusable block of long text inside a page. */
+.details-reading { padding: 1rem; margin: .2rem; border-radius: var(--radius); scroll-margin: 10rem 1rem 1rem; outline: none; font-size: 1.25rem; line-height: 1.55; color: var(--muted); }
+.details-reading.is-focused { border-radius: 0; box-shadow: inset .25rem 0 0 var(--focus); }
+.title-rating-list { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .5rem 1.6rem; margin: 0; font-size: 1.25rem; }
+.title-rating-list dt { color: var(--quiet); }
+.title-rating-list dd { margin: 0; color: var(--ink); }

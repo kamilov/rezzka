@@ -1,0 +1,15 @@
+/* The discussion is read inside a side sheet. */
+.comments-panel { padding: 0 0 1rem; }
+.comments-total { margin: 0 .2rem .8rem; }
+.comments-list { display: flex; flex-direction: column; gap: .5rem; }
+.comment-card { border-radius: .9rem; padding: .9rem 1rem; outline: none; scroll-margin: 3rem; transition: background var(--ease); }
+.comment-card.is-focused { background: var(--layer); box-shadow: inset .25rem 0 0 var(--focus); }
+.comment-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: .3rem 1rem; margin-bottom: .2rem; }
+.comment-author { font-size: 1.25rem; font-weight: 700; overflow-wrap: anywhere; }
+.comment-date, .comment-likes { color: var(--quiet); font-size: 1.1rem; }
+.comment-likes { margin-left: auto; }
+.comment-body { max-height: 45vh; overflow-y: auto; overflow-x: hidden; padding: .3rem; margin: -.3rem; font-size: 1.25rem; line-height: 1.5; color: var(--muted); white-space: pre-wrap; overflow-wrap: anywhere; scrollbar-width: none; }
+.comment-card.is-focused .comment-body { color: var(--ink); }
+.comment-spoiler { display: block; margin: .6rem .15rem; }
+.comment-spoiler-content { display: block; border-left: .15rem solid var(--line); margin-top: .7rem; padding-left: 1rem; }
+.comments-empty { padding: 1.5rem 0; }

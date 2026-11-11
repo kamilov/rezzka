@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="101 21 95 47" fill="currentColor" role="img" aria-label="Rezzka">
+  <title>Rezzka — компактное написание</title>
+  <desc>Две центральные буквы z из логотипа Rezzka с общим диагональным разрезом.</desc>
+  <defs>
+    <mask id="rezzka-compact-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="306" height="76">
+      <rect width="306" height="76" fill="white"/>
+      <path d="M100 53 196 36" stroke="black" stroke-width="4"/>
+    </mask>
+  </defs>
+  <path fill-rule="evenodd" d="M4 8H30Q49 8 49 27Q49 40 37 44L53 64H40L25 45H15V64H4ZM15 18V35H29Q38 35 38 26.5Q38 18 29 18Z"/>
+  <path fill-rule="evenodd" d="M98 47H66Q68 56 78 56Q86 56 91 51L97 58Q89 66 77 66Q55 66 55 45Q55 24 77 24Q98 24 98 47ZM66 39H87Q85 32 77 32Q68 32 66 39Z"/>
+  <g mask="url(#rezzka-compact-cut)">
+    <path d="M106 25H145V33L120 55H145V64H105V56L130 34H106Z"/>
+    <path d="M153 25H192V33L167 55H192V64H152V56L177 34H153Z"/>
+  </g>
+  <path d="M202 8H213V40L231 25H245L224 44L247 64H232L213 47V64H202Z"/>
+  <path fill-rule="evenodd" d="M297 26V64H286V59Q281 66 273 66Q253 66 253 45Q253 24 273 24Q281 24 286 31V26ZM286 45Q286 34 275 34Q264 34 264 45Q264 56 275 56Q286 56 286 45Z"/>
+</svg>

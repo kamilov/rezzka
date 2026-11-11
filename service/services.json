@@ -1,0 +1,10 @@
+{
+  "id": "ru.kamilov.rezzka.service",
+  "description": "Rezzka settings and local setup",
+  "services": [
+    {
+      "name": "ru.kamilov.rezzka.service",
+      "description": "Rezzka settings and local setup"
+    }
+  ]
+}
